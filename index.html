@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Personal Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <style>
+
+       @media (min-width:500px){
+     
+        #projects {
+          height:1800px;
+        }
+        
+        
+      
+
+     }
+
+        nav {
+            position:fixed;
+            width:100%;
+            z-index:99;
+            background-color:darkblue;
+            display:flex;
+            justify-content: flex-end;
+            padding:10px;
+            
+        }
+
+        a {
+            color:white;
+            font-size: 25px;
+        }
+
+        #welcome-section {
+              background-color:cornsilk;
+              height:100vh;
+              overflow:auto;
+              
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 250px;
+            font-size: 30px;
+            
+        }
+         
+         h2 {
+           text-align: center;
+           color:darkblue;
+           font-size:25px;
+         }
+
+         #projects {
+          background-color:rgb(236, 236, 236);
+          height: 1450px;
+          text-align: center;
+          font-size: 30px;
+         }
+
+          #section-contact {
+            background-color: cornsilk;
+            height:400px;
+            text-align: center;
+            
+
+          }
+
+          footer {
+            background-color: darkblue;
+            height:80px;
+            color:white;
+            font-size:25px;
+            padding-top: 20px;
+            padding-right:20px;
+            display:flex;
+            justify-content: flex-end;
+            
+            
+          }
+
+          P {
+            font-size: 20px;
+          }
+
+          .dot {
+            height:100px;
+            width:100px;
+            background-color: rgb(218, 120, 0);
+            border-radius:50%;
+            display:inline-block;
+            text-align: center;
+            padding-top: 30px;
+          }
+
+         span {
+           
+         }
+
+      #profile-link {
+        text-decoration: none;
+        color:white;
+      }
+
+      #section-contact {
+        font-size:30px;
+      }
+
+      </style>
+    
+    <nav id = "navbar">
+        <ul class="nav nav-pills">
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#profile-link">Contact</a></li>
+
+        </ul>
+
+
+     </nav>
+    <br><br><br>
+    
+    <section id="welcome-section">
+      
+     <h1>Hey, I am Bogdan Teodorescu</h1>
+     <h2><i>a web developer</i></h2>
+
+    </section>
+    </div>
+
+
+
+    <section id="projects">
+      <br>
+      These are some of my projects.
+<br><br>
+    <a href="https://github.com/bogdan-a-t" target="_blank"><u>Show all</u></a>
+    <br><br>
+      <div class="project-tile container">
+        <div class="row">
+           <div class="col-lg-3 col-md-3 col-sm-3 ">
+        
+         <a href="https://bogdan-a-t.github.io/tributepage/" target="_blank" class="thumbnail">
+          
+            <img src="images/tributepage.jpg">
+         </a>
+         <p>freeCodeCamp: Build a Tribute Page</p>
+           </div>
+           
+           <div class="col-lg-3 col-md-3 col-sm-3 ">
+        
+            <a href="https://bogdan-a-t.github.io/surveyform/" target="_blank" class="thumbnail">
+             
+               <img src="images/surveyform.jpg">
+            </a>
+            <p>freeCodeCamp: Build a Survey Form</p>
+              </div>
+
+              <div class="col-lg-3 col-md-3 col-sm-3 ">
+        
+                <a href="https://bogdan-a-t.github.io/productlandingpage/" target="_blank" class="thumbnail">
+                 
+                   <img src="images/productlandingpage.jpg">
+                </a>
+                <p>freeCodeCamp: Build a Product Landing Page</p>
+                  </div>
+
+                  <div class="col-lg-3 col-md-3 col-sm-3 ">
+        
+                    <a href="https://bogdan-a-t.github.io/technicaldocumentationpage/" target="_blank" class="thumbnail">
+                     
+                       <img src="images/technicaldocumentationpage.jpg">
+                    </a>
+                    <p>freeCodeCamp: Build a Technical Documentation Page</p>
+                      </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+     
+     <section id="section-contact">
+       <br>
+       Let's work together...
+       <br><br>
+       <p>Currently looking for a job in Romania</p>
+       <br>
+      <span class="dot">
+      <a id="profile-link" href="https://www.freecodecamp.org/bogdan_t" target="_blank">FCC</a>
+       </span>
+     </section>
+
+     <footer>
+        
+        &#169; 2021 Bogdan Teodorescu
+
+     </footer>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
